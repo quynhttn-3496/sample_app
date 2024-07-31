@@ -1,0 +1,13 @@
+vi:
+  home: "Trang chủ"
+  home_message1: "Đây là trang chủ "
+  home_message2: ""
+  home_link: "Hướng dẫn Ruby on Rails"
+  help: "Trợ giúp"
+  help_message1: "Xem hướng dẫn tại "
+  help_message2: ". Hướng dẫn trong ví dụ này tại "
+  help_link: "Trang trợ giúp về Rails"
+  help_book: "Sách hướng dẫn Ruby on Rails"
+  base_title: "Ví dụ hướng dẫn"
+  login: "Đăng nhập"
+  sample_app: "sample app"
