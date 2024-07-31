@@ -18,10 +18,10 @@ gem "puma", "~> 5.0"
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
 
-# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
+# Hotwire"s SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
-# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
+# Hotwire"s modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
@@ -41,6 +41,14 @@ gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+gem "bootstrap-sass", "3.4.1"
+
+gem "config"
+
+gem "rails-i18n"
+
+# debug
+gem "pry-rails"
 
 # Use Sass to process CSS
 # gem "sassc-rails"
