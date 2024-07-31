@@ -1,0 +1,12 @@
+<%= provide :title, t("help") %>
+<h1><%= t "help" %></h1>
+<p>
+  <%= t "help_message1"  %>
+  <%= link_to Settings.ruby_tutotial_help do %>
+    <em><%= t "help_link"  %></em>
+  <% end %>
+  <%= t "help_message2"  %>
+  <%= link_to Settings.ruby_tutotial_book do %>
+    <em><%= t "help_book"  %></em>
+  <% end %>
+</p>
