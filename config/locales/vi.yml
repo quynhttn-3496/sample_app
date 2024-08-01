@@ -21,3 +21,12 @@ vi:
   error: "lỗi"
   created_successful: "Tạo tài khoản thành công"
   not_found_user: "Người dùng không tồn tại"
+  new_user?: "Người mới? "
+  sign_up_now!: "Đăng ký ngay bây giờ"
+  invalid_email_password_combination: "Email hoặc mật khẩu không đúng. Vui lòng kiểm tra lại thông tin và thử lại."
+  users: "Người dùng"
+  account: "Tài khoản"
+  header:
+    profile: "Trang cá nhân"
+    settings: "Cài đặt"
+    logout: "Đăng xuất"

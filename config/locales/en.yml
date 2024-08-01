@@ -21,3 +21,12 @@ en:
   error: "error"
   created_successful: "User created successfully"
   not_found_user: "Not found user!"
+  new_user?: "New user? "
+  sign_up_now!: "Sign up now?"
+  invalid_email_password_combination: "Invalid email or password. Please check your credentials and try again."
+  users: "Users"
+  account: "Account"
+  header:
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Log out"
