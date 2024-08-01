@@ -1,3 +1,6 @@
 ruby_tutotial_link: "http://www.railstutorial.org/help"
 ruby_tutotial_help: "http://www.railstutorial.org/help"
 ruby_tutotial_book: "http://www.railstutorial.org/book"
+VALID_EMAIL_REGEX: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+MAX_LENGTH_NAME: 50
+MAX_LENGTH_EMAIL: 255
