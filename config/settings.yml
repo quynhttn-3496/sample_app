@@ -4,3 +4,8 @@ ruby_tutotial_book: "http://www.railstutorial.org/book"
 MAX_LENGTH_NAME: 50
 MAX_LENGTH_EMAIL: 255
 EMAIL_REGEX: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+digits:
+  digit_6: 6
+user_per_page: 10
+avatar_size: 80
+gravatar_for_size: 50
