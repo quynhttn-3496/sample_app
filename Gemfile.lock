@@ -100,6 +100,10 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     deep_merge (1.2.2)
+    dotenv (3.1.2)
+    dotenv-rails (3.1.2)
+      dotenv (= 3.1.2)
+      railties (>= 6.1)
     erubi (1.12.0)
     execjs (2.9.1)
     faker (2.21.0)
@@ -128,6 +132,7 @@ GEM
       net-imap
       net-pop
       net-smtp
+    mailtrap (2.1.0)
     marcel (1.0.2)
     matrix (0.4.2)
     method_source (1.0.0)
@@ -275,9 +280,11 @@ DEPENDENCIES
   capybara
   config
   debug
+  dotenv-rails
   faker (= 2.21.0)
   importmap-rails
   jbuilder
+  mailtrap
   mysql2 (~> 0.5)
   pagy
   pry-rails
