@@ -11,6 +11,9 @@ class User < ApplicationRecord
     {maximum: Settings.MAX_LENGTH_EMAIL},
     format: {with: Settings.EMAIL_REGEX}, uniqueness: true
 
+  validates :password, presence: true, length:
+    {minimum: Settings.digits.digit_6}, allow_nil: true
+
   has_secure_password
 
   def self.digest string

@@ -25,9 +25,23 @@ en:
   sign_up_now!: "Sign up now?"
   invalid_email_password_combination: "Invalid email or password. Please check your credentials and try again."
   users: "Users"
+  all_users: "All users"
   account: "Account"
   header:
     profile: "Profile"
     settings: "Settings"
     logout: "Log out"
   remember: "Remember me on this computer"
+  save_changes : "Save changes"
+  change: "change"
+  need_login: "Please log in."
+  edit:
+    cannot_edit_other_account: "You cannot edit this account."
+    edit_user: "Edit user"
+    edit_title: "Update your profile"
+    success_update: "Profile updated"
+  delete:
+    delete: "delete"
+    success_deleted_user: "User deleted"
+    fail_deleted_user: "Delete fail!"
+    confirm: "You sure?"

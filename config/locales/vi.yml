@@ -25,9 +25,23 @@ vi:
   sign_up_now!: "Đăng ký ngay bây giờ"
   invalid_email_password_combination: "Email hoặc mật khẩu không đúng. Vui lòng kiểm tra lại thông tin và thử lại."
   users: "Người dùng"
+  all_users: "Danh sách người dùng"
   account: "Tài khoản"
   header:
     profile: "Trang cá nhân"
     settings: "Cài đặt"
     logout: "Đăng xuất"
   remember: "Ghi nhớ trên máy tính này"
+  save_changes : "Lưu thay đổi"
+  change: "Thay đổi"
+  need_login: "Vui lòng đăng nhập."
+  edit:
+    cannot_edit_other_account: "Bạn không thể chỉnh sửa tài khoản này."
+    edit_user: "Chỉnh sửa người dùng"
+    edit_title: "Chỉnh sửa trang cá nhân"
+    success_update: "Cập nhật thành công"
+  delete:
+    delete: "xóa"
+    success_deleted_user: "Người dùng đã bị xóa"
+    fail_deleted_user: "Xóa không thành công!"
+    confirm: "Bạn chắc chắn muốn xóa?"
