@@ -3,8 +3,8 @@
     <%= link_to t("sample_app"), "#", id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to t("home"), "#" %></li>
-        <li><%= link_to t("help"), "#" %></li>
+        <li><%= link_to t("home"), static_pages_home_path %></li>
+        <li><%= link_to t("help"), static_pages_help_path %></li>
         <% if logged_in? %>
           <li><%= link_to t("users"), users_path %></li>
           <li class="dropdown">
