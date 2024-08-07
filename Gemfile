@@ -3,13 +3,17 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.2.2"
 
+gem "active_storage_validations", "0.9.8"
 gem "bcrypt", "3.1.18"
 gem "bootsnap", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "byebug", "~> 9.0", ">= 9.0.5"
+gem "concurrent-ruby", "1.3.3"
 gem "config"
 gem "dotenv-rails"
 gem "faker", "2.21.0"
+gem "i18n-js", "~>3.9.2"
+gem "image_processing", "1.12.2"
 gem "importmap-rails"
 gem "jbuilder"
 gem "mailtrap"
