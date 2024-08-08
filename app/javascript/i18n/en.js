@@ -73425,7 +73425,7 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
     "deleted_success": "micropost deleted",
     "feed": "Micropost Feed",
     "invalid": "Invalid micropost",
-    "micropost": "micropost",
+    "micropost": " Micropost",
     "post": "Post"
   },
   "name": "Name",

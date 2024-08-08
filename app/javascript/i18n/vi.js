@@ -793,7 +793,7 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
     "deleted_success": "Bài viết đã được xóa",
     "feed": "Danh sách bài viết",
     "invalid": "Bài viết không hợp lệ",
-    "micropost": "bài viết",
+    "micropost": " Bài viết ",
     "post": "Đăng"
   },
   "name": "Tên",

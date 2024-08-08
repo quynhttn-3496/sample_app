@@ -70,7 +70,7 @@ vi:
     did_not_request: "Nếu bạn không yêu cầu khôi phục mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên."
   submit: "Gửi"
   micropost:
-    micropost: "bài viết"
+    micropost: " Bài viết "
     created: "Bài viết đã được tạo!"
     deleted_success: "Bài viết đã được xóa"
     deleted_fail: "Xóa thất bại"
