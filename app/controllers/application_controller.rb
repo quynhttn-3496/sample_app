@@ -18,11 +18,10 @@ class ApplicationController < ActionController::Base
   end
 
   def logged_in_user
-    unless logged_in?
+    return if logged_in?
 
-      store_location
-      flash[:danger] = t "need_login"
-      redirect_to login_url, status: :see_other
-    end
+    store_location
+    flash[:danger] = t "need_login"
+    redirect_to login_url, status: :see_other
   end
 end
