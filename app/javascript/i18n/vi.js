@@ -609,6 +609,13 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
       ]
     }
   },
+  "follow": {
+    "follow": "Theo dõi",
+    "follower": "Người theo dõi",
+    "following": "Đang theo dõi",
+    "not_follow_yet": "Chưa follow người dùng này",
+    "unfollow": "Hủy theo dõi"
+  },
   "header": {
     "logout": "Đăng xuất",
     "profile": "Trang cá nhân",
@@ -793,7 +800,7 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
     "deleted_success": "Bài viết đã được xóa",
     "feed": "Danh sách bài viết",
     "invalid": "Bài viết không hợp lệ",
-    "micropost": "bài viết",
+    "micropost": " Bài viết ",
     "post": "Đăng"
   },
   "name": "Tên",

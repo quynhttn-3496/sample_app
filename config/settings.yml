@@ -11,6 +11,7 @@ page_10: 10
 file_5: 5
 avatar_size_80: 80
 gravatar_for_size_50: 50
+gravatar_for_size_30: 30
 exprired_password: 2
 resize_image: [500, 500]
 accept_file: ["image/jpeg", "image/gif", "image/png"]

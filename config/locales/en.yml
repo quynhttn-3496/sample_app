@@ -70,7 +70,8 @@ en:
     did_not_request: "If you did not request your password to be reset, please ignore this email and your password will stayas it is."
   submit: "Submit"
   micropost:
-    micropost: "micropost"
+    micropost: " Micropost"
+    microposts: "Microposts"
     created: "Micropost created!"
     deleted_success: "micropost deleted"
     deleted_fail: "Delete failed"
@@ -85,3 +86,10 @@ en:
   posted: "Posted"
   ago: " ago"
   view_profile: "View profile"
+  view_my_profile: "view my profile"
+  follow:
+    not_follow_yet: "Not follow this user yet"
+    following: "Following"
+    follower: "Followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
