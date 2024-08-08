@@ -73240,6 +73240,13 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
       ]
     }
   },
+  "follow": {
+    "follow": "Follow",
+    "follower": "Followers",
+    "following": "Following",
+    "not_follow_yet": "Not follow this user yet",
+    "unfollow": "Unfollow"
+  },
   "header": {
     "logout": "Log out",
     "profile": "Profile",
@@ -73425,7 +73432,7 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
     "deleted_success": "micropost deleted",
     "feed": "Micropost Feed",
     "invalid": "Invalid micropost",
-    "micropost": "micropost",
+    "micropost": " Micropost",
     "post": "Post"
   },
   "name": "Name",
