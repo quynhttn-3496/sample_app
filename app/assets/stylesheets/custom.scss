@@ -71,7 +71,7 @@ aside {
 
 /* forms */
 input, textarea, select, .uneditable-input {
-  border: 1px solid $border_color;
+  border: 1px solid $gray_light;
   width: 100%;
   margin-bottom: 15px;
 }
@@ -105,6 +105,51 @@ input {
   li {
     overflow: auto;
     padding: 10px 0;
-    border-bottom: 1px solid $border_color;
+    border-bottom: 1px solid $gray_light;
+  }
+}
+
+/* microposts */
+.microposts {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+    border-top: 1px solid $red_light;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .content {
+    display: block;
+    margin-left: 60px;
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+  .timestamp {
+    color: $gray_light;
+    display: block;
+    margin-left: 60px;
+  }
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+   }
+}
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+
+  }
+}
+span.image {
+  margin-top: 10px;
+  input {
+    border: 0;
   }
 }

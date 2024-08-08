@@ -1,16 +1,17 @@
 class UsersController < ApplicationController
   before_action :load_user, only: %i(edit update destroy)
-  before_action :logged_in_user, only: %i(index edit update destroy)
+  before_action :logged_in_user, only: %i(show index edit update destroy)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
   def index
     @users = User.order :name
-    @pagy, @users = pagy @users, items: Settings.user_per_page
+    @pagy, @users = pagy @users, limit: Settings.page_10
   end
 
   def show
     @user = User.find_by id: params[:id]
+    @page, @microposts = pagy @user.microposts, limit: Settings.page_10
     return if @user
 
     flash[:warning] = t "not_found_user"
@@ -65,14 +66,6 @@ class UsersController < ApplicationController
 
     flash[:danger] = t "not_found_user"
     redirect_to root_url
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "need_login"
-    redirect_to login_url
   end
 
   def correct_user
